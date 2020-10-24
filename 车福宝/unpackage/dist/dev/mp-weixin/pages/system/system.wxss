@@ -5,8 +5,7 @@
 .swiper{
 	width: 100vw;
 	height: 338rpx;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 	overflow: hidden;
 }
 .autoplay{

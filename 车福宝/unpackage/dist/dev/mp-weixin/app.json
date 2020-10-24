@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/sell/sell",
     "pages/index/index",
     "pages/place/place",
     "pages/system/system",
@@ -13,7 +12,8 @@
     "pages/my/my",
     "pages/selling_cars/selling_cars",
     "pages/hall/hall",
-    "pages/my_car/my_car"
+    "pages/my_car/my_car",
+    "pages/sell/sell"
   ],
   "subPackages": [],
   "window": {
@@ -49,5 +49,5 @@
     "van-dialog": "/wxcomponents/dist/dialog/index",
     "van-notify": "/wxcomponents/dist/notify/index"
   },
-  "sitemapLocation": "sitemap32.json"
+  "sitemapLocation": "sitemap56.json"
 }

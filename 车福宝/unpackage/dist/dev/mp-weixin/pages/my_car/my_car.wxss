@@ -18,8 +18,7 @@
 }
 .phone{
 	height: 136rpx;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 	margin: 35rpx auto 35rpx auto;
 	padding-top: 27rpx;
 	padding-bottom: 27rpx;
@@ -75,8 +74,7 @@
 	font-weight: bold;
 }
 .xingshi{
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 	margin: 35rpx auto 35rpx auto;
 	padding-top: 20rpx;
 	padding-bottom: 20rpx;
@@ -102,16 +100,14 @@
 	padding-bottom: 20rpx;
 	background-color:#e5e5e5;
 	margin: 20rpx auto 0 auto;
-	-webkit-border-radius: 20rpx;
-	        border-radius: 20rpx;
+	border-radius: 20rpx;
 }
 .main1_list4{
 	margin: 30rpx auto 0 auto;
 	width: 614rpx;
 	height: 451rpx;
 	border: 20rpx solid #e5e5e5;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 }
 .main1_list4_1{
 	object-fit: cover;
@@ -122,8 +118,7 @@
 	margin: 40rpx auto 40rpx auto;
 	width: 277rpx;
 	height: 84rpx;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 	background-color: #d43030;
 	color: #FFF;
 	font-size: 20px;
@@ -136,8 +131,7 @@
 	padding-top: 20rpx;
 	padding-bottom: 20rpx;
 	background-color: #fff;
-	-webkit-border-radius: 40rpx;
-	        border-radius: 40rpx;
+	border-radius: 40rpx;
 	margin: 22rpx auto 0 auto;
 }
 .wrap{

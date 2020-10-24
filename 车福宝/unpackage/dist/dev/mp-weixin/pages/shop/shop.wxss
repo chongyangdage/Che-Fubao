@@ -23,8 +23,7 @@
 	-webkit-justify-content: space-between;
 	        justify-content: space-between;
 	margin: 8rpx auto 0 auto;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 }
 .shop_tit{
 	text-align: left;

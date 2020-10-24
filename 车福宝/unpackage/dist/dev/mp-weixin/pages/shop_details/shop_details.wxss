@@ -5,8 +5,7 @@
 	margin: 190rpx auto 0 auto;
 	text-align: center;
 	line-height: 80rpx;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 	background-color: #d43030;
 	color: #fff;
 	font-weight: bold;
@@ -116,8 +115,7 @@
 .main_text{
 	overflow: hidden;
 	height: 186rpx;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 	margin: 10rpx auto 0rpx auto;
 	background-color: #fff;
 }
