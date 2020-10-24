@@ -1,0 +1,61 @@
+
+.list{
+	margin-top: 60rpx;
+}
+.button{
+	margin-top: -20rpx;
+	margin-left: 150rpx;
+}
+.text1_1{
+	margin-left: 20rpx;
+}
+.text1_2{
+	margin-left: 120rpx;
+}
+.text1{
+	margin-top: 16rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-left: 25rpx;
+}
+.imgs{
+	width: 310rpx;
+	height: 226rpx;
+	border: 6rpx #E5E5E5 solid;
+}
+.img{
+	width: 310rpx;
+	height: 226rpx;
+}
+.imgs_list{
+	margin-top: 19rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.car_tit{
+	height: 67rpx;
+	line-height: 77rpx;
+	padding-left: 30rpx;
+	border-bottom: 6rpx #E5E5E5 solid;
+}
+.car_wrap{
+	overflow: hidden;
+	width: 730rpx;
+	margin: 20rpx auto 0 auto;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+	background-color: #fff;
+	padding-bottom:30rpx ;
+}
+.map{
+	min-height: 100vh;
+	background-color: #E5E5E5;
+	overflow: hidden;
+	padding-bottom: 100rpx;
+}
+
+

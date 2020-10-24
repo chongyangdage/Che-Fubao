@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "交通规则",
+  "usingComponents": {
+    "tab": "/components/tab/tab"
+  }
+}

@@ -1,0 +1,120 @@
+
+.button_submit{
+		width: 257rpx;
+		height: 70rpx;
+		color: #fff;
+		font-weight: bold;
+		background-color: #b31c1c;
+		line-height: 70rpx;
+		-webkit-border-radius: 30rpx;
+		        border-radius: 30rpx;
+		margin: 40rpx auto 40rpx auto;
+}
+.price_text{
+		width: 670rpx;
+		height: 91rpx;
+		-webkit-border-radius: 30rpx;
+		        border-radius: 30rpx;
+		background-color: #fff;
+		text-align: center;
+		margin: 27rpx auto 0 auto;
+		line-height: 91rpx;
+}
+.margin1{
+		margin-top: 30rpx;
+}
+.imgs_show{
+	width: 670rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0 auto;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.imgs_text{
+	height: 50rpx;
+	background-color: #E5E5E5;
+	text-align: center;
+	line-height: 50rpx;
+	-webkit-border-radius: 15rpx;
+	        border-radius: 15rpx;
+	width: 670rpx;
+	margin: 10rpx auto 0 auto;
+	font-size: 13px;
+}
+.img_show{
+		width: 278rpx;
+		height: 199rpx;
+		border: 4rpx solid #fff;
+}
+.img_show1{
+		width: 278rpx;
+		height: 199rpx;
+		object-fit: cover;
+}
+.margin{
+		margin-top: 27rpx;
+}
+#textarea{
+		background-color: #e5e5e5;
+		margin: 23rpx auto 23rpx  auto;
+		width: 504rpx;
+		height: 244rpx;
+		-webkit-border-radius: 30rpx;
+		        border-radius: 30rpx;
+		text-align: center;
+}
+.input1::-ms-input-placeholder{text-align: center;}
+.input1::-webkit-input-placeholder{text-align: center;}
+.icons{
+		margin-left: 28rpx;
+}
+.input{
+		margin: 22rpx auto 0 auto;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		width: 505rpx;
+		
+		height: 71rpx;
+		-webkit-border-radius: 30rpx;
+		        border-radius: 30rpx;
+		background-color: #fff;
+		color: #918d86;
+}
+.input1{
+		
+		text-align: center;
+		height: 71rpx;
+	
+		background-color: #fff;
+		color: #918d86;
+}
+.main1{
+		width: 100%;
+}
+.main1_text{
+		
+		color: #fff;
+		font-size: 15px;
+		margin-left: 120rpx;
+		height: 54rpx;
+		line-height: 54rpx;
+		
+		
+		font-weight: bold;
+}
+.top_tit{
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		line-height: 242rpx;
+}
+.wrap_c{
+	background-color: #4990e0;
+	padding-bottom: 160rpx;
+}
+

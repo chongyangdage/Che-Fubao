@@ -1,0 +1,48 @@
+
+.text{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.shop_price{
+	color: red;
+	text-align: left;
+	margin-top: 15rpx;
+}
+.shop_wrap{
+	width: 666rpx;
+	padding:32rpx;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 8rpx auto 0 auto;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+}
+.shop_tit{
+	text-align: left;
+	margin-top: 10rpx;
+	width: 100%;
+	overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+}
+.shop_main{
+	margin-top: 34rpx;
+	width: 299rpx;
+}
+.shop_img{
+	width: 299rpx;
+	height: 286rpx;
+}
+.wrap_s{
+	min-height: 100vh;
+	background-color: #e5e5e5;
+	padding-bottom: 100rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "二手车专区",
+  "usingComponents": {
+    "tab": "/components/tab/tab"
+  }
+}

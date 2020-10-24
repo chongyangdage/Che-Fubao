@@ -1,0 +1,97 @@
+
+.wu{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.icon1{
+}
+.name{
+	top: 425rpx;
+	left: 590rpx;
+	position: absolute;
+}
+.icon{
+	top: -31rpx;
+	left: 250rpx;
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	width: 185rpx;
+	height: 66rpx;
+	background-color: #e5e5e5;
+	-webkit-border-radius: 35rpx;
+	        border-radius: 35rpx;
+	line-height: 66rpx;
+}
+.button{
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.k_num{
+	margin-left: 18rpx;
+}
+.p_num{
+	margin-left: 38rpx;
+}
+.kind{
+	margin-top: 6rpx;
+	font-size: 14px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.price{
+	margin-top: 6rpx;
+	color: red;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.img_wrap{
+	margin-top: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.img{
+	width: 313rpx;
+	height: 238rpx;
+	border: 6rpx #e5e5e5 solid;
+	
+	overflow: hidden;
+	object-fit: cover;
+}
+.img1{
+	width: 313rpx;
+	height: 235rpx;
+	
+	object-fit: cover;
+}
+.main{
+	position: relative;
+	overflow: hidden;
+	-webkit-border-radius: 50rpx;
+	        border-radius: 50rpx;
+	padding-left: 25rpx;
+	padding-right: 25rpx;
+	width: 680rpx;
+	height: 535rpx;
+	background-color: #fff;
+	margin: 25rpx auto 0 auto;
+}
+.wrap{
+	overflow: hidden;
+	padding-bottom: 60rpx;
+	background-color: #e5e5e5;
+}
+

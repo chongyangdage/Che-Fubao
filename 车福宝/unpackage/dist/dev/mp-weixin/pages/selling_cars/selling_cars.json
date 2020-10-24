@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "售车信息",
+  "usingComponents": {
+    "tab": "/components/tab/tab"
+  }
+}

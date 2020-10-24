@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "车辆用品",
+  "usingComponents": {
+    "tab": "/components/tab/tab"
+  }
+}

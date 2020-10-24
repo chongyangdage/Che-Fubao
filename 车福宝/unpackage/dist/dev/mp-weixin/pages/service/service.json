@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "服务站",
+  "usingComponents": {
+    "tab": "/components/tab/tab"
+  }
+}

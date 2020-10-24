@@ -1,0 +1,1 @@
+<view class="map"><view class="place">{{''+place_name+''}}</view><map style="width:100%;height:80vh;" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange"></map><tab vue-id="41add5a0-1" active="100000" bind:__l="__l"></tab></view>

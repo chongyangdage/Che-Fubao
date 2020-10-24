@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/sell/sell",
+    "pages/index/index",
+    "pages/place/place",
+    "pages/system/system",
+    "pages/tow_car/tow_car",
+    "pages/details/details",
+    "pages/shop/shop",
+    "pages/shop_details/shop_details",
+    "pages/shop_car/shop_car",
+    "pages/service/service",
+    "pages/my/my",
+    "pages/selling_cars/selling_cars",
+    "pages/hall/hall",
+    "pages/my_car/my_car"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "展示位置"
+    }
+  },
+  "usingComponents": {
+    "van-button": "/wxcomponents/dist/button/index",
+    "van-notice-bar": "/wxcomponents/dist/notice-bar/index",
+    "van-icon": "/wxcomponents/dist/icon/index",
+    "van-tabbar": "/wxcomponents/dist/tabbar/index",
+    "van-tabbar-item": "/wxcomponents/dist/tabbar-item/index",
+    "van-collapse": "/wxcomponents/dist/collapse/index",
+    "van-collapse-item": "/wxcomponents/dist/collapse-item/index",
+    "van-search": "/wxcomponents/dist/search/index",
+    "van-tab": "/wxcomponents/dist/tab/index",
+    "van-tabs": "/wxcomponents/dist/tabs/index",
+    "van-goods-action": "/wxcomponents/dist/goods-action/index",
+    "van-goods-action-icon": "/wxcomponents/dist/goods-action-icon/index",
+    "van-goods-action-button": "/wxcomponents/dist/goods-action-button/index",
+    "van-submit-bar": "/wxcomponents/dist/submit-bar/index",
+    "van-checkbox": "/wxcomponents/dist/checkbox/index",
+    "van-checkbox-group": "/wxcomponents/dist/checkbox-group/index",
+    "van-popup": "/wxcomponents/dist/popup/index",
+    "van-stepper": "/wxcomponents/dist/stepper/index",
+    "van-dialog": "/wxcomponents/dist/dialog/index",
+    "van-notify": "/wxcomponents/dist/notify/index"
+  },
+  "sitemapLocation": "sitemap32.json"
+}

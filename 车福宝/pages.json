@@ -1,0 +1,122 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/sell/sell",
+		"style": {
+			"navigationBarTitleText": "车辆出售"	
+		}
+	},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"	
+			}
+		},
+		{
+			"path": "pages/place/place",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/system/system",
+			"style": {
+				"navigationBarTitleText": "交通规则"	
+			}
+		},
+		{
+			"path": "pages/tow_car/tow_car",
+			"style": {
+				"navigationBarTitleText": "二手车专区"	
+			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "车辆详情"	
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "车辆用品"	
+			}
+		},
+		{
+			"path": "pages/shop_details/shop_details",
+			"style": {
+				"navigationBarTitleText": "商品详情"	
+			}
+		},
+		{
+			"path": "pages/shop_car/shop_car",
+			"style": {
+				"navigationBarTitleText": "购物车"	
+			}
+		},
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "服务站"	
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"	
+			}
+		},
+		{
+			"path": "pages/selling_cars/selling_cars",
+			"style": {
+				"navigationBarTitleText": "售车信息"	
+			}
+		},
+		{
+			"path": "pages/hall/hall",
+			"style": {
+				"navigationBarTitleText": "服务大厅"	
+			}
+		},
+		{
+			"path": "pages/my_car/my_car",
+			"style": {
+				"navigationBarTitleText": "我的车辆"	
+			}
+		}
+		
+	],
+	"permission": {
+	    "scope.userLocation": {
+	      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+	    }
+	  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents":{
+			"van-button":"/wxcomponents/dist/button/index",
+			"van-notice-bar": "/wxcomponents/dist/notice-bar/index",
+			"van-icon": "/wxcomponents/dist/icon/index",
+			"van-tabbar": "/wxcomponents/dist/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/dist/tabbar-item/index",
+			"van-collapse": "/wxcomponents/dist/collapse/index",
+			"van-collapse-item": "/wxcomponents/dist/collapse-item/index",
+			"van-search": "/wxcomponents/dist/search/index",
+			"van-tab": "/wxcomponents/dist/tab/index",
+			"van-tabs": "/wxcomponents/dist/tabs/index",
+			"van-goods-action": "/wxcomponents/dist/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/dist/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/dist/goods-action-button/index",
+			"van-submit-bar": "/wxcomponents/dist/submit-bar/index",
+			"van-checkbox": "/wxcomponents/dist/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/dist/checkbox-group/index",
+			"van-popup": "/wxcomponents/dist/popup/index",
+			"van-stepper": "/wxcomponents/dist/stepper/index",
+			"van-dialog": "/wxcomponents/dist/dialog/index",
+			"van-notify": "/wxcomponents/dist/notify/index"
+		}
+	}
+}
