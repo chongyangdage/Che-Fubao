@@ -24,8 +24,7 @@
 	width: 185rpx;
 	height: 66rpx;
 	background-color: #e5e5e5;
-	-webkit-border-radius: 35rpx;
-	        border-radius: 35rpx;
+	border-radius: 35rpx;
 	line-height: 66rpx;
 }
 .button{
@@ -80,8 +79,7 @@
 .main{
 	position: relative;
 	overflow: hidden;
-	-webkit-border-radius: 50rpx;
-	        border-radius: 50rpx;
+	border-radius: 50rpx;
 	padding-left: 25rpx;
 	padding-right: 25rpx;
 	width: 680rpx;

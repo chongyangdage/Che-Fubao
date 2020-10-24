@@ -34,8 +34,7 @@
 		background-color: #d43030;
 		width: 105rpx;
 		height: 60rpx;
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 		color: #fff;
 		font-size: 15px;
 		font-weight: bold;
@@ -61,16 +60,14 @@
 		height: 1120rpx;
 		overflow: hidden;
 		background-color: #fff;
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 		margin: 22rpx auto 0 auto;
 }
 .button{
 		background-color: #448fe3;
 		width: 388rpx;
 		height: 100rpx;
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 		color: #fff;
 		font-size: 19px;
 		font-weight: bold;
@@ -89,8 +86,7 @@
 		margin-left: 20rpx;
 }
 .weizhang_img{
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 		overflow: hidden;
 		width: 684rpx;
 		height: 308rpx;
@@ -104,8 +100,7 @@
 		margin: 22rpx auto 0 auto;
 		width: 730rpx;
 		background-color: #fff;
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 		height: 497rpx;
 }
 .van-notice-bar__content{
@@ -143,8 +138,7 @@
 		margin: 0 auto;
 		width: 317rpx;
 		height: 185rpx;
-		-webkit-border-radius: 30rpx;
-		        border-radius: 30rpx;
+		border-radius: 30rpx;
 		background-color: #fff;
 }
 .footer_img{
@@ -163,10 +157,8 @@
 		width: 345rpx;
 		height: 530rpx;
 		background-color: #e4fefb;
-		-webkit-border-bottom-left-radius: 45rpx;
-		        border-bottom-left-radius: 45rpx;
-		-webkit-border-bottom-right-radius: 45rpx;
-		        border-bottom-right-radius: 45rpx;
+		border-bottom-left-radius: 45rpx;
+		border-bottom-right-radius: 45rpx;
 }
 .swiper2{
 		height: 88rpx;
@@ -232,8 +224,7 @@
 		overflow: hidden;
 		margin-top: 22rpx;
 		background-color: #fff;
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 		height: 720rpx;
 		margin: 22rpx auto 0 auto;
 		width: 730rpx;
@@ -244,8 +235,7 @@
 	
 		overflow: hidden;
 		background-color: #fff;
-		-webkit-border-radius: 50rpx;
-		        border-radius: 50rpx;
+		border-radius: 50rpx;
 		height: 420rpx;
 }
 .main_tit{

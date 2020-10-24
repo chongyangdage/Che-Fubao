@@ -1935,10 +1935,10 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 108:
-/*!*********************************************************!*\
-  !*** D:/车福宝小程序新/车福宝/wxcomponents/dist/dialog/dialog.js ***!
-  \*********************************************************/
+/***/ 100:
+/*!*******************************************************************!*\
+  !*** D:/车福宝小程序新/Che-Fubao/车福宝/wxcomponents/dist/dialog/dialog.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2023,9 +2023,9 @@ Dialog;exports.default = _default;
 /***/ }),
 
 /***/ 11:
-/*!********************************************!*\
-  !*** D:/车福宝小程序新/车福宝/utils/myUploadFile.js ***!
-  \********************************************/
+/*!******************************************************!*\
+  !*** D:/车福宝小程序新/Che-Fubao/车福宝/utils/myUploadFile.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2086,84 +2086,6 @@ exports.myRequest = myRequest;var myUploadFile = function myUploadFile(options) 
   });
 };exports.myUploadFile = myUploadFile;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 18:
-/*!*********************************************************!*\
-  !*** D:/车福宝小程序新/车福宝/wxcomponents/dist/notify/notify.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = Notify;var _color = __webpack_require__(/*! ../common/color */ 19);
-var defaultOptions = {
-  selector: '#van-notify',
-  type: 'danger',
-  message: '',
-  background: '',
-  duration: 3000,
-  zIndex: 110,
-  top: 0,
-  color: _color.WHITE,
-  safeAreaInsetTop: false,
-  onClick: function onClick() {},
-  onOpened: function onOpened() {},
-  onClose: function onClose() {} };
-
-function parseOptions(message) {
-  return typeof message === 'string' ? { message: message } : message;
-}
-function getContext() {
-  var pages = getCurrentPages();
-  return pages[pages.length - 1];
-}
-function Notify(options) {
-  options = Object.assign(
-  Object.assign({}, defaultOptions),
-  parseOptions(options));
-
-  var context = options.context || getContext();
-  var notify = context.selectComponent(options.selector);
-  delete options.context;
-  delete options.selector;
-  if (notify) {
-    notify.setData(options);
-    notify.show();
-    return notify;
-  }
-  console.warn('未找到 van-notify 节点，请确认 selector 及 context 是否正确');
-}
-Notify.clear = function (options) {
-  options = Object.assign(
-  Object.assign({}, defaultOptions),
-  parseOptions(options));
-
-  var context = options.context || getContext();
-  var notify = context.selectComponent(options.selector);
-  if (notify) {
-    notify.hide();
-  }
-};
-
-/***/ }),
-
-/***/ 19:
-/*!********************************************************!*\
-  !*** D:/车福宝小程序新/车福宝/wxcomponents/dist/common/color.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.GRAY_DARK = exports.GRAY = exports.ORANGE = exports.GREEN = exports.WHITE = exports.BLUE = exports.RED = void 0;var RED = '#ee0a24';exports.RED = RED;
-var BLUE = '#1989fa';exports.BLUE = BLUE;
-var WHITE = '#fff';exports.WHITE = WHITE;
-var GREEN = '#07c160';exports.GREEN = GREEN;
-var ORANGE = '#ff976a';exports.ORANGE = ORANGE;
-var GRAY = '#323233';exports.GRAY = GRAY;
-var GRAY_DARK = '#969799';exports.GRAY_DARK = GRAY_DARK;
 
 /***/ }),
 
@@ -2918,11 +2840,13 @@ Dep.SharedObject.targetStack = [];
 function pushTarget (target) {
   Dep.SharedObject.targetStack.push(target);
   Dep.SharedObject.target = target;
+  Dep.target = target;
 }
 
 function popTarget () {
   Dep.SharedObject.targetStack.pop();
   Dep.SharedObject.target = Dep.SharedObject.targetStack[Dep.SharedObject.targetStack.length - 1];
+  Dep.target = Dep.SharedObject.target;
 }
 
 /*  */
@@ -7763,13 +7687,14 @@ function cloneWithData(vm) {
   }, ret);
 
   // vue-composition-api
-  var rawBindings = vm.__secret_vfa_state__ && vm.__secret_vfa_state__.rawBindings;
+  var compositionApiState = vm.__composition_api_state__ || vm.__secret_vfa_state__;
+  var rawBindings = compositionApiState && compositionApiState.rawBindings;
   if (rawBindings) {
     Object.keys(rawBindings).forEach(function (key) {
       ret[key] = vm[key];
     });
   }
-  
+
   //TODO 需要把无用数据处理掉，比如 list=>l0 则 list 需要移除，否则多传输一份数据
   Object.assign(ret, vm.$mp.data || {});
   if (
@@ -8243,13 +8168,91 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!*********************************!*\
-  !*** D:/车福宝小程序新/车福宝/pages.json ***!
-  \*********************************/
+/*!*******************************************!*\
+  !*** D:/车福宝小程序新/Che-Fubao/车福宝/pages.json ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 
+
+/***/ }),
+
+/***/ 98:
+/*!*******************************************************************!*\
+  !*** D:/车福宝小程序新/Che-Fubao/车福宝/wxcomponents/dist/notify/notify.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = Notify;var _color = __webpack_require__(/*! ../common/color */ 99);
+var defaultOptions = {
+  selector: '#van-notify',
+  type: 'danger',
+  message: '',
+  background: '',
+  duration: 3000,
+  zIndex: 110,
+  top: 0,
+  color: _color.WHITE,
+  safeAreaInsetTop: false,
+  onClick: function onClick() {},
+  onOpened: function onOpened() {},
+  onClose: function onClose() {} };
+
+function parseOptions(message) {
+  return typeof message === 'string' ? { message: message } : message;
+}
+function getContext() {
+  var pages = getCurrentPages();
+  return pages[pages.length - 1];
+}
+function Notify(options) {
+  options = Object.assign(
+  Object.assign({}, defaultOptions),
+  parseOptions(options));
+
+  var context = options.context || getContext();
+  var notify = context.selectComponent(options.selector);
+  delete options.context;
+  delete options.selector;
+  if (notify) {
+    notify.setData(options);
+    notify.show();
+    return notify;
+  }
+  console.warn('未找到 van-notify 节点，请确认 selector 及 context 是否正确');
+}
+Notify.clear = function (options) {
+  options = Object.assign(
+  Object.assign({}, defaultOptions),
+  parseOptions(options));
+
+  var context = options.context || getContext();
+  var notify = context.selectComponent(options.selector);
+  if (notify) {
+    notify.hide();
+  }
+};
+
+/***/ }),
+
+/***/ 99:
+/*!******************************************************************!*\
+  !*** D:/车福宝小程序新/Che-Fubao/车福宝/wxcomponents/dist/common/color.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.GRAY_DARK = exports.GRAY = exports.ORANGE = exports.GREEN = exports.WHITE = exports.BLUE = exports.RED = void 0;var RED = '#ee0a24';exports.RED = RED;
+var BLUE = '#1989fa';exports.BLUE = BLUE;
+var WHITE = '#fff';exports.WHITE = WHITE;
+var GREEN = '#07c160';exports.GREEN = GREEN;
+var ORANGE = '#ff976a';exports.ORANGE = ORANGE;
+var GRAY = '#323233';exports.GRAY = GRAY;
+var GRAY_DARK = '#969799';exports.GRAY_DARK = GRAY_DARK;
 
 /***/ })
 

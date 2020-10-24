@@ -6,15 +6,13 @@
 		font-weight: bold;
 		background-color: #b31c1c;
 		line-height: 70rpx;
-		-webkit-border-radius: 30rpx;
-		        border-radius: 30rpx;
+		border-radius: 30rpx;
 		margin: 40rpx auto 40rpx auto;
 }
 .price_text{
 		width: 670rpx;
 		height: 91rpx;
-		-webkit-border-radius: 30rpx;
-		        border-radius: 30rpx;
+		border-radius: 30rpx;
 		background-color: #fff;
 		text-align: center;
 		margin: 27rpx auto 0 auto;
@@ -38,8 +36,7 @@
 	background-color: #E5E5E5;
 	text-align: center;
 	line-height: 50rpx;
-	-webkit-border-radius: 15rpx;
-	        border-radius: 15rpx;
+	border-radius: 15rpx;
 	width: 670rpx;
 	margin: 10rpx auto 0 auto;
 	font-size: 13px;
@@ -62,8 +59,7 @@
 		margin: 23rpx auto 23rpx  auto;
 		width: 504rpx;
 		height: 244rpx;
-		-webkit-border-radius: 30rpx;
-		        border-radius: 30rpx;
+		border-radius: 30rpx;
 		text-align: center;
 }
 .input1::-ms-input-placeholder{text-align: center;}
@@ -79,8 +75,7 @@
 		width: 505rpx;
 		
 		height: 71rpx;
-		-webkit-border-radius: 30rpx;
-		        border-radius: 30rpx;
+		border-radius: 30rpx;
 		background-color: #fff;
 		color: #918d86;
 }

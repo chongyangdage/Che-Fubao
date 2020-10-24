@@ -38,8 +38,7 @@
 	margin: 15rpx auto 0 auto;
 	padding-top: 17rpx;
 	padding-bottom: 17rpx;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	border-radius: 30rpx;
 	overflow: hidden;
 	background-color: #fff;
 }
@@ -51,8 +50,7 @@
 .header_img{
 	width: 178rpx;
 	height: 178rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	margin: 100rpx auto 0 auto;
 	
 	overflow: hidden;
@@ -66,10 +64,8 @@
 	margin: 0 auto;
 	width: 740rpx;
 	height: 376rpx;
-	-webkit-border-top-left-radius: 30rpx;
-	        border-top-left-radius: 30rpx;
-	-webkit-border-top-right-radius: 30rpx;
-	        border-top-right-radius: 30rpx;
+	border-top-left-radius: 30rpx;
+	border-top-right-radius: 30rpx;
 	background-color: #5196e2;
 }
 

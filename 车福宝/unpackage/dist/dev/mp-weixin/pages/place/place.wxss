@@ -9,8 +9,7 @@
 	width: 730rpx;
 	height: 70rpx;
 	line-height: 70rpx;
-	-webkit-border-radius: 25rpx;
-	        border-radius: 25rpx;
+	border-radius: 25rpx;
 	margin: 20rpx auto 20rpx auto;
 	background-color: #fff;
 }
